@@ -1,0 +1,58 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Logs, temporary files, and local tool output
+*.log
+*.tmp
+*.temp
+*.bak
+.playwright-mcp/
+
+# Build and packaging output
+build/
+dist/
+*.whl
+
+# Local databases and runtime state
+*.db
+*.sqlite
+*.sqlite3
+checkpoints/
+checkpoint/
+**/checkpoints/
+**/checkpoint/
+
+# SQL files currently contain environment-specific connection details and
+# sample customer/card data. Add sanitized SQL files explicitly when ready.
+postgres sql/*.sql

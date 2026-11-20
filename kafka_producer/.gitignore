@@ -1,0 +1,19 @@
+# Local Python environment
+.venv/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and configuration
+.env
+
+# Generated producer data
+*.csv
+
+# Runtime output
+*.log
+*.tmp
